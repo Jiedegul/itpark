@@ -1,0 +1,39 @@
+img {
+    width: 100%;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.slide {
+    position: relative;
+    height:500px;
+}
+
+.slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.slide img.active {
+    opacity: 1;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination span {
+    display: inline-block;
+    border: 1px solid gray;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.pagination span.active {
+    background-color: gray;
+}

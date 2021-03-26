@@ -1,0 +1,15 @@
+.product {
+    font-weight: bold;
+    width: 30%;
+    display: inline-block;
+}
+
+.count {
+    width: 30%;
+    display: inline-block;
+}
+
+.price {
+    width: 30%;
+    display: inline-block;
+}
